@@ -9,9 +9,14 @@
 <body>
 
     <header>
-        Destination Majorca
-        Let Wonderlust Travel help you plan the trip of your dreams!
-        Specializing in unforgettable experiences, we offer curated trips to the breathtaking island of Majorca, a hidden gem in the Mediterranean. Whether you crave sun-drenched beaches, charming villages, or thrilling outdoor adventures, our expert team will craft the perfect itinerary tailored just for you.
+        <a class="skip-link" href="#intro">Skip to main content</a>
+        <a class="skip-link" href="#plan-your-trip">Skip to plan your trip</a>
+        <a class="skip-link" href="#testimonials">Skip to testimonials</a>
+        <a class="skip-link" href="#about-your-destination">Skip to about your destination</a>
+        <a class="skip-link" href="#contact-us">Skip to contact us</a>
+        <h1>Destination Majorca</h1>
+        <p>Let Wonderlust Travel help you plan the trip of your dreams!</p>
+       <p>Specializing in unforgettable experiences, we offer curated trips to the breathtaking island of Majorca, a hidden gem in the Mediterranean. Whether you crave sun-drenched beaches, charming villages, or thrilling outdoor adventures, our expert team will craft the perfect itinerary tailored just for you.</p>
     </header>
     <nav>
         Main Navigation
@@ -219,32 +224,32 @@
             
                 <div>
                     <label>First Name<span>*</span></label>
-                    <input>
+                    <input type="text" name="first-name" id="first-name" required>
                 </div>
                 <div>
                     <label>Last Name<span>*</span></label>
-                    <input>
+                    <input type="text" name="last-name" id="last-name" required>
                 </div>
                 <div>
                     <label>Email<span>*</span></label>
-                    <input>
+                    <input type="email" name="my-email" id="my-email" required>
                 </div>
                 <div>
                     <label>Phone<span>*</span></label>
-                    <input>
+                    <input type="tel" name="my-phone" id="my-phone">
                 </div>
                 <fieldset id="preferred-contact">
                 <legend>Preferred Contact Method<span>*</span></legend>
                     <div> 
-                        <input>
+                        <input type="radio" name="pref-contact" id="pref-email">
                         <label>Email</label>
                     </div>
                     <div>
-                        <input>
+                        <input type="radio" name="pref-contact" id="pref-text">
                         <label>Text</label>
                     </div>
                     <div>
-                        <input>
+                        <input type="radio" name="pref-contact" id="pref-phone">
                         <label>Phone</label>
                     </div>
                 </fieldset>
@@ -274,7 +279,7 @@
                         <option>Flexible</option>
                     </select>
                 </fieldset>
-                <input>
+                <input type="submit" name="my-submit" id="my-submit" value="Submit">
             
         </section>
         <section id="legal">
